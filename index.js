@@ -6,3 +6,15 @@ window.onload = function () {
         confirmButtonText: 'Cool'
     });
 };
+
+
+const btn = document.createElement("button");
+btn.innerText = "Change Background";
+btn.className = "btn btn-primary";
+document.body.appendChild(btn);
+
+btn.onclick = () => {
+  document.body.style.backgroundColor = "lightblue";
+};
+
+
